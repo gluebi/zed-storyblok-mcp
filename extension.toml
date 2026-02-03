@@ -1,0 +1,10 @@
+id = "storyblok-mcp-server"
+name = "Storyblok MCP Server"
+version = "0.1.0"
+schema_version = 1
+authors = ["Oliver Pietsch <oliver.pietsch@myposter.de>"]
+description = "Connect to Storyblok MCP Server for headless CMS integration"
+repository = "https://github.com/gluebi/zed-storyblok-mcp"
+
+[context_servers.storyblok-mcp-server]
+name = "Storyblok MCP Server"
