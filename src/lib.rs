@@ -22,7 +22,7 @@ fn read_env_file() -> Vec<(String, String)> {
             }
             if let Some((key, value)) = line.split_once('=') {
                 let key = key.trim().to_string();
-                let value = value.trim().trim_matches('"').trim_matches(''').to_string();
+                let value = value.trim().trim_matches('"').trim_matches('\'').to_string();
                 env_vars.push((key, value));
             }
         }
